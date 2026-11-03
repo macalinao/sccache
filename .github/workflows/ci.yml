@@ -5,7 +5,7 @@ jobs:
   lint:
     name: ${{ matrix.component }} ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 15
+    timeout-minutes: 40
     strategy:
       fail-fast: false
       matrix:
